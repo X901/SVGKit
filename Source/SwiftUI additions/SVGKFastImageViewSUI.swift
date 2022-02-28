@@ -2,6 +2,7 @@
 import SwiftUI
 import SVGKit
 
+@available(iOS 13.0, tvOS 13.0, *)
 struct SVGKFastImageViewSUI:UIViewRepresentable
 {
     @Binding var url:URL
